@@ -1,10 +1,16 @@
-.bl-background {
+body{
     background: #cdcbcb;
-    padding: 20px;
+}
+.bl-background {
+    width:	100%;
+    /*Вирівнює елемент по центру*/
+    margin:	auto;
+    /*Ширина екрану після якої з’являться
+    поля*/
+    max-width:	700px;	
 }
 
 .bl-list {
-    background: white;
     margin-bottom: 10px;
 }
 
@@ -12,10 +18,85 @@
     background: white;
 }
 
+.bl-row{
+    border: 1px;
+    padding: 14px;
+}
+
+.bl-product{
+    float: left;
+    padding: 14px;
+}
+.bl-count{
+     float:	left;
+    padding: 14px;
+}
+
+.bl-buttons{
+    float:	right;
+    padding: 14px;
+}
+
+.bl-input{
+    background: white;
+    padding: 14px;
+    border: 1px;
+}
+
+.bl-leave{
+    padding: 14px;
+    border: 1px;
+}
+
+.bl-bb{
+    padding: 14px;
+    border: 1px;
+}
+
+
+.bl-containerLeft{
+    background: white;
+    padding: 14px;
+    float: left;
+}
+
+.bl-containerRight{
+    background: white;
+    padding: 14px;
+    float: right;
+}
+
+
 /*Кнопки*/
 .bl-label {
     background: #cdcbcb;
+    border: 1px;
 }
 .bl-plus {
     background: #04a613;
+    border-radius: 100%;
+    color: white;
+}
+.bl-minus {
+    background: #db2828;
+    border-radius: 100%;
+    color: white;
+}
+
+.bl-buy {
+    background: lightgrey;
+    border-radius: 20%;
+    color: grey;
+}
+
+.bl-cross {
+    background: #db2828;
+    border-radius: 20%;
+    color: white;
+}
+
+.bl-add{
+    background: #2185d0;
+    border-radius: 10%;
+    color: white;
 }
