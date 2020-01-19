@@ -15,13 +15,13 @@ body{
 .bl-list {
     margin-bottom: 10px;
     width: 500px;
+    overflow: auto;
 }
 
 .bl-bought {
     margin: auto;
     background: white;
     width: 200px;
-    padding: 14px;
     border-radius: 2%;
     box-shadow: 0px 3px 4px gray;
     float: right;
@@ -29,40 +29,59 @@ body{
 
 .bl-row{
     border: 1px;
-    padding: 14px;
+    padding: 10px;
     border-color: darkgrey;
+    overflow: auto;
+    border-top: 1px solid lightgray;
+}
+
+.missing .bl-product {
+    text-decoration: line-through;
+}
+
+.missing .bl-count .bl-label {
+    margin-left: 34px;
+}
+
+.missing .bl-buttons .bl-buy {
+    width: 100%;
 }
 
 .bl-product{
     float: left;
-    padding: 14px;
-    width: 100px;
+    padding: 10px;
+    width: 130px;
 }
 .bl-count{
      float:	left;
-    padding: 14px;
+    padding: 10px;
     width: 100px;
 }
 
 .bl-buttons{
     float:	right;
-    padding: 14px;
+    padding: 10px;
     width: 120px;
 }
 
 .bl-input{
-    background: white;
-    padding: 14px;
+    padding: 16px;
     border: 1px;
     border-color: gray;
     border: none;
 }
 
+.bl-input input {
+    height: 20px;
+    width: 380px;
+    float: left;
+}
+
+
 .bl-leave{
     padding: 14px;
-    border: 1px;
     border-color: gray;
-    border: none;
+    border-bottom: 1px solid lightgray;
 }
 
 .bl-bb{
@@ -72,10 +91,13 @@ body{
     border: none;
 }
 
+.bl-bb .bl-label {
+    margin-left: 34px;
+}
+
 
 .bl-containerLeft{
     background: white;
-    padding: 14px;
     width: 500px;
     border-radius: 2%;
     box-shadow: 0px 3px 4px gray;
@@ -83,9 +105,8 @@ body{
 }
 
 .bl-title{
-    border: 1px;
-    border-color: gray;
-    border: none;
+    padding: 10px;
+    border-bottom: 1px solid lightgray;
 }
 
 .bl-item{
@@ -161,9 +182,10 @@ body{
 
 .bl-add{
     background: #2185d0;
-    border-radius: 10%;
     color: white;
     border: none;
-    height: 22px;
+    height: 26px;
     width: 80px;
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 10%;
 }
