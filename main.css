@@ -25,6 +25,7 @@ body{
     border-radius: 2%;
     box-shadow: 0px 3px 4px gray;
     float: right;
+    display: inline;
 }
 
 .bl-row{
@@ -101,6 +102,7 @@ body{
     width: 500px;
     border-radius: 2%;
     box-shadow: 0px 3px 4px gray;
+    margin: 5px;
     float: left;
 }
 
